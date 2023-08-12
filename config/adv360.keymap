@@ -69,11 +69,11 @@
 
         layer_symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans                &trans         &trans      &trans                 &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans        &kp LEFT_BRACE       &kp HASH  &kp DOLLAR        &kp RIGHT_BRACE  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp AT  &kp LEFT_PARENTHESIS       &kp PLUS   &kp EQUAL  &kp RIGHT_PARENTHESIS  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans      &kp LEFT_BRACKET  &kp AMPERSAND    &kp STAR      &kp RIGHT_BRACKET  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                     &kp TILDE      &kp CARET      &trans                 &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans       &trans                &trans         &trans      &trans                 &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans       &trans        &kp LEFT_BRACE       &kp HASH  &kp DOLLAR        &kp RIGHT_BRACE  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans       &kp AT  &kp LEFT_PARENTHESIS       &kp PLUS   &kp EQUAL  &kp RIGHT_PARENTHESIS  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp PERCENT      &kp LEFT_BRACKET  &kp AMPERSAND    &kp STAR      &kp RIGHT_BRACKET  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &kp TILDE      &kp CARET      &trans                 &trans  &trans
             >;
         };
 
