@@ -40,7 +40,7 @@
         default_layer {
             bindings = <
       &none       &kp N1      &kp N2   &kp N3  &kp N4  &kp N5               &none                                                           &mo 1  &kp N6           &kp N7     &kp N8   &kp N9    &kp N0      &none
-      &none        &kp Q       &kp W    &kp E   &kp R   &kp T               &none                                                           &none   &kp Y            &kp U      &kp I    &kp O     &kp P   &kp BSLH
+    &kp DEL        &kp Q       &kp W    &kp E   &kp R   &kp T               &none                                                           &none   &kp Y            &kp U      &kp I    &kp O     &kp P   &kp BSLH
  &kp ESCAPE      &lt 3 A     &lt 2 S  &lt 4 D   &kp F   &kp G               &none  &kp LCMD   &none                   &none      &none      &none   &kp H            &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
   &kp LSHFT  &mt LCTRL Z  &mt LALT X    &kp C   &kp V   &kp B                                 &none                   &none                         &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
       &none        &none       &none    &none   &none                    &kp BSPC   &kp TAB   &none                   &none  &kp ENTER  &kp SPACE          &kp EXCLAMATION      &none    &none     &none      &none
@@ -79,11 +79,11 @@
 
         layer_misc {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans           &trans            &trans      &trans             &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans       &kp K_NEXT  &kp K_PLAY_PAUSE  &kp K_STOP         &kp K_PREV  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans         &kp LEFT          &kp DOWN      &kp UP          &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp K_VOLUME_UP            &trans  &kp K_MUTE  &kp K_VOLUME_DOWN  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                             &trans      &trans             &trans  &trans  &trans
+ &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F6                                                  &kp F7           &kp F8            &kp F9     &kp F10            &kp F11  &kp F12  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans       &kp K_NEXT  &kp K_PLAY_PAUSE  &kp K_STOP         &kp K_PREV   &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans         &kp LEFT          &kp DOWN      &kp UP          &kp RIGHT   &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp K_VOLUME_UP            &trans  &kp K_MUTE  &kp K_VOLUME_DOWN   &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                             &trans      &trans             &trans   &trans  &trans
             >;
         };
 
