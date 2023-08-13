@@ -41,7 +41,7 @@
             bindings = <
       &none       &kp N1      &kp N2   &kp N3  &kp N4  &kp N5               &none                                                           &mo 1  &kp N6           &kp N7     &kp N8   &kp N9    &kp N0      &none
     &kp DEL        &kp Q       &kp W    &kp E   &kp R   &kp T               &none                                                           &none   &kp Y            &kp U      &kp I    &kp O     &kp P   &kp BSLH
- &kp ESCAPE      &lt 3 A     &lt 2 S  &lt 4 D   &kp F   &kp G               &none  &kp LCMD   &none                   &none      &none      &none   &kp H            &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+ &kp ESCAPE      &lt 3 A     &lt 2 S  &lt 4 D   &kp F   &kp G               &none  &kp LCMD   &none                   &none   &kp LCMD      &none   &kp H            &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
   &kp LSHFT  &mt LCTRL Z  &mt LALT X    &kp C   &kp V   &kp B                                 &none                   &none                         &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
       &none        &none       &none    &none   &none                    &kp BSPC   &kp TAB   &none                   &none  &kp ENTER  &kp SPACE          &kp EXCLAMATION      &none    &none     &none      &none
             >;
